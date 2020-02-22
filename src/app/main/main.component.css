@@ -1,0 +1,49 @@
+.example-sidenav-fab-container {
+  width: 100%;
+  height: calc(100% - 64px - 30px);
+}
+
+mat-sidenav {
+  display: flex;
+}
+
+.example-sidenav-fab-container mat-sidenav {
+  max-width: 40%;
+}
+
+.example-sidenav-fab-container .mat-sidenav-content,
+.example-sidenav-fab-container mat-sidenav {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+
+.example-sidenav-fab-container .mat-sidenav-content,
+.example-sidenav-fab-container mat-sidenav h3 {
+  padding: 10px;
+  background-color: rgb(223, 223, 223);
+}
+
+.example-sidenav-fab-container .mat-sidenav-content,
+.example-sidenav-fab-container mat-sidenav a {
+  padding: 5px;
+}
+
+.example-scrolling-content {
+  overflow: auto;
+  height: 100%;
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+mat-sidenav-container {
+  clear: both;
+}
+.mat-toolbar.mat-accent {
+  background-color: #ef6c00;
+}
+.mat-drawer-container {
+  background: linear-gradient(to bottom right, #ff9d3f, #b53d00);
+}

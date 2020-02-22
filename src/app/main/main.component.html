@@ -1,0 +1,14 @@
+<mat-toolbar class="example-toolbar" color="accent" selected="true">
+    <span style="font-size:15px;font-weight: bold">Tên đội: {{title}}</span>
+
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+
+    <button (click)="onScoreboard()" mat-button style="font-size:15px;font-weight: bold">Bảng xếp hạng</button>
+    <button (click)="onLogOut()" mat-button style="font-size:15px;font-weight: bold">Đăng xuất</button>
+</mat-toolbar>
+<mat-sidenav-container class="example-sidenav-fab-container">
+    <div class="example-scrolling-content">
+        <router-outlet></router-outlet>
+    </div>
+</mat-sidenav-container>
